@@ -1,5 +1,4 @@
 #!/bin/bash
-mkdir -p $PREFIX/bin/
 cat > FGAP <<EOF
 #!/bin/bash
 octave --path "$PREFIX/bin/" --no-gui --eval "fgap \$@"
